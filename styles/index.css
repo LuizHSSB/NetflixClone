@@ -128,6 +128,10 @@ header img {
     gap: 3%;
 }
 
+#buttons button{
+    cursor: pointer;
+}
+
 #b1 , #b2{
     padding: 15px;
     background-color: rgb(37, 37, 37);
@@ -185,30 +189,37 @@ header img {
 
 #co {
     background-color: rgb(249, 64, 255);
+    cursor: pointer;
 } 
 
 #ac {
     background-color: rgb(87, 87, 255);
+    cursor: pointer;
 } 
 
 #dr {
     background-color: rgb(255, 236, 64);
+    cursor: pointer;
 } 
 
 #sci {
     background-color: rgb(40, 240, 40);
+    cursor: pointer;
 } 
 
 #rom {
     background-color: rgb(255, 180, 95);
+    cursor: pointer;
 } 
 
 #thr {
     background-color: rgb(255, 94, 207);
+    cursor: pointer;
 } 
 
 #ter{
     background-color: rgb(87, 87, 255);
+    cursor: pointer;
 }
 
 footer{
