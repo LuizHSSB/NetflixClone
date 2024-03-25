@@ -1,0 +1,254 @@
+@font-face {
+    font-family: NetflixBold;
+    src: url(/layout/arquivosAuxiliares/Netflix/fonte/netflix-sans-font/NetflixSans-Bold.otf);
+}
+
+@font-face {
+    font-family: NetflixLight;
+    src: url(/layout/arquivosAuxiliares/Netflix/fonte/netflix-sans-font/NetflixSans-Light.otf);
+}
+
+@font-face {
+    font-family: NetflixMedium;
+    src: url(/layout/arquivosAuxiliares/Netflix/fonte/netflix-sans-font/NetflixSans-Medium.otf);
+}
+
+@font-face {
+    font-family: NetflixRegular;
+    src: url(/layout/arquivosAuxiliares/Netflix/fonte/netflix-sans-font/NetflixSans-Regular.otf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'NetflixRegular';
+}
+
+:root {
+
+    --white : white;
+    --black : black;
+}
+
+body{
+    background-color: var(--black);
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    background-color: var(--black);
+}
+
+header svg {
+    margin: 0% 1.4% 0% 5.8%;
+    cursor: pointer
+}
+
+header h3{
+    margin: 0% 1.2%;
+    color: var(--white);
+    cursor: pointer
+}
+
+header #username{
+    font-family: NetflixLight;
+    margin: 0% 0.6% 0% 1.2%;
+}
+
+header img {
+    cursor: pointer;  
+}
+
+#search{
+    padding-left: 28%;
+}
+
+#background{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/back-ground.png);
+}
+#background2{
+    display: flex;
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-image: url(/img/246e4c20e2539af37de4a14a3f6cbd45d829cc99.png);
+    background-size: cover;
+}
+
+#ftitle , #ftitle2{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    color: var(--white);
+    justify-content: center;
+}
+
+#ftitle , #ftitle2{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 46%, rgba(84,84,84,0) 100%);
+}
+
+#netOri , #netOri2{ 
+    font-family: NetflixMedium;
+    margin: 0% 0% 0% 5%;
+    font-size: 18px;
+}
+#title , #title2{ 
+    font-family: NetflixMedium;
+    margin: 0% 0% 0% 1.5%;
+    font-size: 80px;   
+}
+#temp , #temp2{ 
+    font-family: NetflixMedium;
+    margin: 3.5% 0% 1% 5%;
+    font-size: 15px;
+}
+#sinopse , #sinopse2{ 
+    font-family: NetflixLight;
+    margin: 2% 0% 2% 1.5%;
+    font-size: 18px;
+}
+#buttons{ 
+    margin: 0% 0% 0% 5%;
+    display: flex;
+    gap: 3%;
+}
+
+#b1 , #b2{
+    padding: 15px;
+    background-color: rgb(37, 37, 37);
+    border: none;
+    color: var(--white);
+    border-radius: 6px;
+}
+
+#seriesTV , #emAlta , #Terror , #Suspense , #TopWeek {
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    padding: 0% 1% 1% 1%;
+}
+
+#divseriesTV , #divemAlta , #divTerror , #divSuspense , #divTopWeek {
+    background-color: var(--black); 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.8% 0% 4% 0%;
+}
+#divseriesTV img, #divemAlta img, #divTerror img, #divSuspense img, #divTopWeek img{
+    cursor: pointer;
+}
+
+#categorias{
+    display: flex;
+    padding: 1% 0% 1% 1.9%;
+    font-family: NetflixBold;
+    font-size: 20px;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+#categ{ 
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+
+}
+
+#categ p{
+    width: 12%;
+    height: 100%;
+    display: flex; 
+    align-items: center;  
+    justify-content: center;
+    color: var(--white);
+    margin: 0% 0.4% 0% 0.4%;
+}
+
+#co {
+    background-color: rgb(249, 64, 255);
+} 
+
+#ac {
+    background-color: rgb(87, 87, 255);
+} 
+
+#dr {
+    background-color: rgb(255, 236, 64);
+} 
+
+#sci {
+    background-color: rgb(40, 240, 40);
+} 
+
+#rom {
+    background-color: rgb(255, 180, 95);
+} 
+
+#thr {
+    background-color: rgb(255, 94, 207);
+} 
+
+#ter{
+    background-color: rgb(87, 87, 255);
+}
+
+footer{
+    margin-top: 2%;
+}
+
+#copy{
+    font-family: NetflixLight;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4% 0%;
+    background-color: rgb(34, 34, 34);
+    color: rgb(107, 107, 107);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
